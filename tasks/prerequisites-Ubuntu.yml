@@ -6,7 +6,7 @@
     cache_valid_time: "{{ directadmin_cache_timeout }}"
     state: present
   with_items:
-    - "{{ directadmin_debian6_packages }}"
+    - "{{ directadmin_ubuntu10_packages }}"
   when: "ansible_distribution == 'Ubuntu' and ansible_distribution_release == 'lucid'"
 
 - name: Install dependencies for Ubuntu based Debian 7 Wheezy
@@ -16,7 +16,7 @@
     cache_valid_time: "{{ directadmin_cache_timeout }}"
     state: present
   with_items:
-    - "{{ directadmin_debian7_packages }}"
+    - "{{ directadmin_ubuntu12_packages }}"
   when: "ansible_distribution == 'Ubuntu' and ansible_distribution_release == 'precise'"
 
 - name: Install dependencies for Ubuntu based Debian 8 Jessie
@@ -26,5 +26,5 @@
     cache_valid_time: "{{ directadmin_cache_timeout }}"
     state: present
   with_items:
-    - "{{ directadmin_debian8_packages }}"
+    - "{{ directadmin_ubuntu14_packages }}"
   when: "ansible_distribution == 'Ubuntu' and ansible_distribution_release == 'trusty'"
