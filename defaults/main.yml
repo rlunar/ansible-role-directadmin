@@ -134,11 +134,11 @@ directadmin_ubuntu10_packages:
   - libdb-dev
   - libsasl2-dev
   - libncurses5-dev
-  - libsystemd-dev
+  # - libsystemd-dev
   - bind9
   - dnsutils
   - quota
-  - libsystemd-daemon0
+  # - libsystemd-daemon0
   - patch
   - libjemalloc-dev
   - logrotate
@@ -173,11 +173,11 @@ directadmin_ubuntu12_packages:
   - libdb-dev
   - libsasl2-dev
   - libncurses5-dev
-  - libsystemd-dev
+  # - libsystemd-dev
   - bind9
   - dnsutils
   - quota
-  - libsystemd-daemon0
+  # - libsystemd-daemon0
   - patch
   - libjemalloc-dev
   - logrotate
@@ -213,11 +213,11 @@ directadmin_ubuntu14_packages:
   - libdb-dev
   - libsasl2-dev
   - libncurses5-dev
-  - libsystemd-dev
+  # - libsystemd-dev
   - bind9
   - dnsutils
   - quota
-  - libsystemd-daemon0
+  # - libsystemd-daemon0
   - patch
   - libjemalloc-dev
   - logrotate
