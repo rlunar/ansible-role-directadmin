@@ -14,9 +14,9 @@
   when: ansible_distribution == 'Ubuntu'
   
 - include: prerequisites-Debian.yml
-  when: ansible_os_family == 'Debian'
+  when: ansible_distribution == 'Debian'
 
 - include: prerequisites-RedHat.yml
-  when: ansible_os_family == 'RedHat'
+  when: ansible_distribution == 'RedHat'
 
 
