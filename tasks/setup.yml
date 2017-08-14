@@ -9,10 +9,10 @@
     path: "{{ directadmin_setup_path }}/setup.sh"
     mode: 0755
 
-- name: ensure custombuild version is set
-  template:
-    src: .custombuild.conf.j2
-    dest: "{{ directadmin_setup_path }}/.custombuild"
+# - name: ensure custombuild version is set
+#   template:
+#     src: .custombuild.conf.j2
+#     dest: "{{ directadmin_setup_path }}/.custombuild"
 
 - name: check if DA is already running on host
   uri:
