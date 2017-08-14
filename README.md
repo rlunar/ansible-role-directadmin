@@ -1,9 +1,11 @@
 Ansible-directadmin
 =========
 
-[![Build Status](https://travis-ci.org/hyperized/ansible-directadmin.svg?branch=master)](https://travis-ci.org/hyperized/ansible-directadmin)
+[![Build Status](https://travis-ci.org/rlunar/directadmin.svg?branch=master)](https://travis-ci.org/rlunar/directadmin)
 
 Deploy [DirectAdmin](https://directadmin.com/) with Ansible
+
+Original [hyperized/ansible-directadmin](https://github.com/hyperized/ansible-directadmin)
 
 Requirements
 ------------
