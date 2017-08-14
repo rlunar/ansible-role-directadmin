@@ -106,6 +106,85 @@ directadmin_debian8_packages:
   - patch
   - libjemalloc-dev
 
+directadmin_ubuntu10_packages:
+  - gcc
+  - g++
+  - make
+  - flex
+  - bison
+  - openssl
+  - libssl-dev
+  - perl
+  - perl-base
+  - perl-modules
+  - libperl-dev
+  - libaio1
+  - libaio-dev
+  - zlib1g
+  - zlib1g-dev
+  - libcap-dev
+  - cron
+  - bzip2
+  - automake
+  - autoconf
+  - libtool
+  - cmake
+  - pkg-config
+  - python
+  - libdb-dev
+  - libsasl2-dev
+  - libncurses5-dev
+  - libsystemd-dev
+  - bind9
+  - dnsutils
+  - quota
+  - libsystemd-daemon0
+  - patch
+  - libjemalloc-dev
+  - logrotate
+  - rsyslog
+  - libc6-dev
+
+directadmin_ubuntu12_packages:
+  - gcc
+  - g++
+  - make
+  - flex
+  - bison
+  - openssl
+  - libssl-dev
+  - perl
+  - perl-base
+  - perl-modules
+  - libperl-dev
+  - libaio1
+  - libaio-dev
+  - zlib1g
+  - zlib1g-dev
+  - libcap-dev
+  - cron
+  - bzip2
+  - automake
+  - autoconf
+  - libtool
+  - cmake
+  - pkg-config
+  - python
+  - libdb-dev
+  - libsasl2-dev
+  - libncurses5-dev
+  - libsystemd-dev
+  - bind9
+  - dnsutils
+  - quota
+  - libsystemd-daemon0
+  - patch
+  - libjemalloc-dev
+  - logrotate
+  - rsyslog
+  - libc6-dev
+
+
 directadmin_ubuntu14_packages:
   - gcc
   - g++
