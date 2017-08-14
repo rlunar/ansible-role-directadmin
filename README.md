@@ -48,7 +48,7 @@ Example Playbook
     - hosts: servers
       become: yes
       roles:
-         - { role: hyperized.directadmin }
+         - { role: webdcg.directadmin }
 
 License
 -------
@@ -58,4 +58,7 @@ MIT
 Author Information
 ------------------
 
+Roberto Luna <rluna@webdcg.com>
+
+Original package
 Gerben Geijteman <gerben@hyperized.net>

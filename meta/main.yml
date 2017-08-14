@@ -1,7 +1,7 @@
 galaxy_info:
-  author: Gerben Geijteman
+  author: Roberto Luna
   description: Deploy DirectAdmin with Ansible
-  company: Hyperized Hosting
+  company: WebDCG
   license: MIT
   min_ansible_version: 2.1
   platforms:
@@ -16,6 +16,11 @@ galaxy_info:
     - jessie
     - squeeze
     - wheezy
+  - name: Ubuntu
+    versions:
+    - lucid
+    - precise
+    - trusty
   galaxy_tags:
     - system
     - web

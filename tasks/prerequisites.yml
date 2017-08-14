@@ -10,9 +10,13 @@
     - directadmin_hostname
 
 # Ensure prerequisites are installed for supported OS
+- include: prerequisites-Ubuntu.yml
+  when: ansible_distribution == 'Ubuntu'
+  
 - include: prerequisites-Debian.yml
   when: ansible_os_family == 'Debian'
 
 - include: prerequisites-RedHat.yml
   when: ansible_os_family == 'RedHat'
+
 
