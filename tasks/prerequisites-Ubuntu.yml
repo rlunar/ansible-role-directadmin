@@ -1,5 +1,9 @@
 ---
-- name: Install dependencies for Ubuntu based Debian 6 Squeeze
+- name: Update apt cache.
+  apt: update_cache=true
+  become: true
+  
+- name: Install dependencies for Ubuntu 10.04 Lucid
   apt:
     name: "{{ item }}"
     update_cache: yes
@@ -9,7 +13,7 @@
     - "{{ directadmin_ubuntu10_packages }}"
   when: "ansible_distribution == 'Ubuntu' and ansible_distribution_release == 'lucid'"
 
-- name: Install dependencies for Ubuntu based Debian 7 Wheezy
+- name: Install dependencies for Ubuntu 12.04 Precise
   apt:
     name: "{{ item }}"
     update_cache: yes
@@ -19,7 +23,7 @@
     - "{{ directadmin_ubuntu12_packages }}"
   when: "ansible_distribution == 'Ubuntu' and ansible_distribution_release == 'precise'"
 
-- name: Install dependencies for Ubuntu based Debian 8 Jessie
+- name: Install dependencies for Ubuntu 14.04 Trusty
   apt:
     name: "{{ item }}"
     update_cache: yes
