@@ -1,4 +1,4 @@
-Ansible-directadmin
+Ansible Role | DirectAdmin
 =========
 
 [![Build Status](https://travis-ci.org/rlunar/directadmin.svg?branch=master)](https://travis-ci.org/rlunar/directadmin)
@@ -60,7 +60,7 @@ MIT
 Author Information
 ------------------
 
-Roberto Luna <rluna@webdcg.com>
+Roberto Luna <roberto.luna.rojas@gmail.com>
 
 Original package
 Gerben Geijteman <gerben@hyperized.net>

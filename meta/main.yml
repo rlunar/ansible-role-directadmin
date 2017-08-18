@@ -1,7 +1,6 @@
 galaxy_info:
   author: Roberto Luna
   description: Deploy DirectAdmin with Ansible
-  company: WebDCG
   license: MIT
   min_ansible_version: 2.1
   platforms:
